@@ -166,3 +166,56 @@ body {
 .social-icons a:hover > img {
   transform: translateY(-10px);
 }
+
+#footer {
+  background-image: linear-gradient(to right, #b95dc7, #41095d);
+  color: #fff;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.footer-box .icons {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  background-image: linear-gradient(to right, #b95dc7, #41095d);
+  text-align: center;
+  padding-top: 7px;
+}
+
+.footer-box .form-control {
+  max-width: 250px;
+  margin-top: 25px;
+}
+
+.footer-box .btn-primary {
+  background-image: linear-gradient(to right, #b95dc7, #41095d);
+  border: none;
+}
+
+hr {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
